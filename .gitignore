@@ -1,0 +1,52 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environments
+.venv/
+backend/venv/
+
+# Environment Variables
+backend/.env
+
+# Database
+backend/*.db
+
+# =========================
+# React / Node
+# =========================
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# =========================
+# PyCharm
+# =========================
+.idea/
+
+# =========================
+# Cache
+# =========================
+.pytest_cache/
+.mypy_cache/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Uploads
+# =========================
+backend/uploads/
+uploads/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
